@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
-import { Search, TrendingUp, TrendingDown, Activity, BarChart2, Clock, Globe, Pin, RefreshCw, Star, Plus, Minus, AlertCircle, Loader2, Sun, Moon, Banknote } from 'lucide-react';
+import { Search, TrendingUp, TrendingDown, Activity, Clock, Pin, RefreshCw, Star, Plus, Minus, AlertCircle, Loader2, Sun, Moon } from 'lucide-react';
 
 // ==========================================
 // 🔴 จุดที่ต้องแก้ไข: ใส่ API KEY ของ FINNHUB ที่นี่
