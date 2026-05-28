@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  techtick-web:
+    build: .
+    container_name: techtick-react-app
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    env_file:
+      - .env                    # ← เพิ่มบรรทัดนี้
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    restart: unless-stopped
